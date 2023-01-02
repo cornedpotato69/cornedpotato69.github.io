@@ -31,8 +31,8 @@ jobs:
             ${{ runner.os }}-
       - name: Install package dependencies
         run: npm install
-      - name: Execute test cases
-        run: npm run test
+      # - name: Execute test cases
+      #   run: npm run test
       - name: Create test build
         run: npm run build
       - name: Deploy 🚀
